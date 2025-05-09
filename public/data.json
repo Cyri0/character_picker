@@ -12,8 +12,9 @@
             "name": "Elf",
             "description": "Elegáns, hosszú életű lények, kiváló íjászok és varázshasználók.",
             "bonuses": {
-                "dexterity": 2,
-                "intelligence": 1
+                "dexterity": 4,
+                "intelligence": 2,
+                "strength": -3
             },
             "img":"/img/elf.png"
         },
@@ -22,7 +23,8 @@
             "description": "Szívós, bányászathoz és harcokhoz értő faj.",
             "bonuses": {
                 "constitution": 2,
-                "strength": 1
+                "strength": 1,
+                "dexterity": -2
             },
             "img":"/img/dwarf.png"
         },
@@ -32,7 +34,8 @@
             "bonuses": {
                 "strength": 1,
                 "dexterity": 1,
-                "intelligence": 1
+                "intelligence": 1,
+                "wisdom": -2
             },
             "img":"/img/human.png"
         },
@@ -40,8 +43,8 @@
             "name": "Ork",
             "description": "Nagytestű, harcias lények.",
             "bonuses": {
-                "strength": 3,
-                "charisma": -1
+                "strength": 5,
+                "charisma": -3
             },
             "img":"/img/orc.png"
         }
