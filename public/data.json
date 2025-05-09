@@ -1,0 +1,49 @@
+{
+    "base_attributes": {
+        "strength": 10,
+        "dexterity": 10,
+        "intelligence": 10,
+        "constitution": 10,
+        "charisma": 10,
+        "wisdom": 10
+    },
+    "races": [
+        {
+            "name": "Elf",
+            "description": "Elegáns, hosszú életű lények, kiváló íjászok és varázshasználók.",
+            "bonuses": {
+                "dexterity": 2,
+                "intelligence": 1
+            },
+            "img":"/img/elf.png"
+        },
+        {
+            "name": "Törpe",
+            "description": "Szívós, bányászathoz és harcokhoz értő faj.",
+            "bonuses": {
+                "constitution": 2,
+                "strength": 1
+            },
+            "img":"/img/dwarf.png"
+        },
+        {
+            "name": "Ember",
+            "description": "Sokoldalú faj, mindenben közepes.",
+            "bonuses": {
+                "strength": 1,
+                "dexterity": 1,
+                "intelligence": 1
+            },
+            "img":"/img/human.png"
+        },
+        {
+            "name": "Ork",
+            "description": "Nagytestű, harcias lények.",
+            "bonuses": {
+                "strength": 3,
+                "charisma": -1
+            },
+            "img":"/img/orc.png"
+        }
+    ]
+}
